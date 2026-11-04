@@ -1,0 +1,177 @@
+
+/* MELY TRAD - ROYAL BURGUNDY */
+
+/* STYLE GENERAL */
+body {
+    margin: 0;
+    background-color: #F8F2EC;
+    color: #2E2A2A;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+/* EN-TETE */
+header {
+    background-color: #6E2132;
+    color: white;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #E8D8CC;
+    font-style: italic;
+}
+
+/* MENU DE NAVIGATION */
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #C7A46A;
+}
+
+/* PARTIE PRINCIPALE */
+main {
+    padding: 45px 20px;
+}
+
+main h2 {
+    color: #6E2132;
+    font-size: 32px;
+}
+
+main h3 {
+    color: #9B6B55;
+    font-size: 23px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 20px auto;
+}
+
+/* BOUTON SERVICES */
+main a {
+    display: inline-block;
+    background-color: #6E2132;
+    color: white;
+    padding: 15px 28px;
+    margin: 20px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main a:hover {
+    background-color: #C7A46A;
+}
+
+/* DOMAINES D'ACTIVITE */
+main h2:nth-of-type(2) {
+    margin-top: 65px;
+}
+
+main h3:nth-of-type(n+2) {
+    background-color: #FFFFFF;
+    border: 1px solid #C7A46A;
+    border-radius: 8px;
+    padding: 18px;
+    max-width: 500px;
+    margin: 25px auto 10px;
+}
+
+/* PIED DE PAGE */
+footer {
+    background-color: #4A1421;
+    color: white;
+    padding: 25px;
+    font-size: 14px;
+}
+.image-accueil {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+/* PAGE SERVICES */
+
+.service-detail {
+    background-color: #FFFFFF;
+    border: 1px solid #C7A46A;
+    border-radius: 10px;
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 25px;
+}
+
+.service-detail h2 {
+    color: #6E2132;
+    font-size: 27px;
+}
+
+.service-detail p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.langues {
+    background-color: #E8D8CC;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.contact-services {
+    margin-top: 50px;
+    padding: 25px;
+}
+
+/* PAGE CONTACT */
+
+.contact-info {
+    background-color: #FFFFFF;
+    border: 1px solid #C7A46A;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 750px;
+    margin: 40px auto;
+}
+
+.contact-projet {
+    background-color: #E8D8CC;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 750px;
+    margin: 40px auto;
+}
+
+.contact-projet ul {
+    text-align: left;
+    max-width: 450px;
+    margin: 20px auto;
+    line-height: 2;
+}
+
+.contact-liens {
+    padding: 30px;
+    margin: 40px auto;
+}
+
+.contact-info h2,
+.contact-projet h2 {
+    color: #6E2132;
+}
